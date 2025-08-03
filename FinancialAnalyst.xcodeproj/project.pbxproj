@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FA2302C72E3F5FE6001EF58A /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = FA2302C62E3F5FE6001EF58A /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FA23027B2E3E31C7001EF58A /* FinancialAnalyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialAnalyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2302C62E3F5FE6001EF58A /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				FA23027D2E3E31C7001EF58A /* FinancialAnalyst */,
 				FA23027C2E3E31C7001EF58A /* Products */,
+				FA2302C62E3F5FE6001EF58A /* AppIcon.icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2302C72E3F5FE6001EF58A /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
