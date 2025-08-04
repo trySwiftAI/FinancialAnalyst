@@ -76,7 +76,11 @@ extension AnalysisView {
                 }
                 
                 await MainActor.run {
-                    // save the final generated analysis in SwiftData or the server
+                    if generatedAnalysis != nil {
+                        // save the final generated analysis in SwiftData or the server
+                    } else {
+                        errorMessage = "Sorry! Something went wrong and the data could not be generated. Please try again."
+                    }
                     isGenerating = false
                 }
                 
